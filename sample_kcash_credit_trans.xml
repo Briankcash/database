@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clearing xmlns="http://bpc.ru/sv/xp/clearing">
+  <fileid>2507060000000001</fileid>
+  <filetype>FLTP1710</filetype>
+  <startdate>2026-07-06</startdate>
+  <enddate>2026-07-06</enddate>
+  <instid>7059</instid>
+  <filedate>2026-07-06</filedate>
+
+  <operation>
+    <operid>2607060010000001</operid>
+    <opertype>OPTP0026</opertype>
+    <msgtype>MSGTPRES</msgtype>
+    <sttltype>STTT0100</sttltype>
+    <operdate>2026-07-06T120000</operdate>
+    <hostdate>2026-07-06T120000</hostdate>
+    <opercount>1</opercount>
+    <operamount>
+      <amountvalue>150000</amountvalue>
+      <currency>344</currency>
+    </operamount>
+    <status>OPST0400</status>
+    <isreversal>0</isreversal>
+    <merchantnumber>90000001</merchantnumber>
+    <mcc>6011</mcc>
+    <merchantcountry>344</merchantcountry>
+    <terminaltype>TRMT0003</terminaltype>
+    <terminalnumber>30000001</terminalnumber>
+    <transactionjurisdiction>TRJRTDOM</transactionjurisdiction>
+
+    <issuer>
+      <clientidtype>CITPCARD</clientidtype>
+      <cardnumber>4523769999</cardnumber>
+      <cardid>100000999999</cardid>
+      <cardtypeid>6282</cardtypeid>
+      <cardinstanceid>100000888888</cardinstanceid>
+      <cardseqnumber>1</cardseqnumber>
+      <cardexpirdate>2029-12-31</cardexpirdate>
+      <cardcountry>344</cardcountry>
+      <networkid>1001</networkid>
+      <accountnumber>700000999999</accountnumber>
+      <accountcurrency>344</accountcurrency>
+      <customernumber>202607060001KCASH</customernumber>
+    </issuer>
+
+    <transaction>
+      <transactionid>2607060015000001</transactionid>
+      <transactiontype>TRNT0101</transactiontype>
+      <postingdate>2026-07-06T120000</postingdate>
+
+      <creditentry>
+        <entryid>2607060015000001</entryid>
+        <status>ENTRPOST</status>
+        <accountnumber>700000999999</accountnumber>
+        <currency>344</currency>
+        <balancetype>BLTP0001</balancetype>
+        <agentnumber>1111</agentnumber>
+        <accountamount>
+          <amountvalue>150000</amountvalue>
+          <currency>344</currency>
+        </accountamount>
+        <issettled>0</issettled>
+        <conversionrate>1</conversionrate>
+        <ratetype>RTTPCUST</ratetype>
+        <amountpurpose>AMPR0008</amountpurpose>
+      </creditentry>
+
+      <additionalamount>
+        <amountvalue>150000</amountvalue>
+        <currency>344</currency>
+        <amounttype>AMPR0003</amounttype>
+      </additionalamount>
+    </transaction>
+  </operation>
+</clearing>
